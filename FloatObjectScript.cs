@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent (typeof (Rigidbody))]
-public class ObjectFloatScript : MonoBehaviour {
+public class FloatObjectScript : MonoBehaviour {
 	public float waterLevel = 0.0f;
 	public float floatThreshold = 2.0f;
 	public float waterDensity = 0.125f;
